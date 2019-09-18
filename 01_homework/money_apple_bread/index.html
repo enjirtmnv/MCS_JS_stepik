@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let money = parseInt(prompt("Skolko u vas deneg?"));
+    /*let moneyParse = parseInt(money);
+    console.log(moneyParse)*/
+    let apple = parseInt(prompt("Skolko vy kupili yablok?"));
+    let bread= parseInt(prompt("Skolko vy kupili batonov hleba?"));
+    let appleUnitCost = parseInt(prompt("Skolko stoit odno yabloko?"));
+    let breadUnitCost = parseInt(prompt("Skolko stoit odin baton hleba?"));
+    let appleTotalCost = apple * appleUnitCost;
+    let breadTotalCost = bread * breadUnitCost;
+    /*console.log(appleTotalCost + ' apple');
+    console.log(breadTotalCost + ' bread');*/
+    let spending = appleTotalCost + breadTotalCost;
+    let result = spending < money;
+    console.log(appleTotalCost + ' apple');
+   console.log(breadTotalCost + ' bread');
+    console.log(money + ' money');
+    console.log(spending + ' total money');
+    document.write(result);
+
+</script>
+</body>
+</html>
