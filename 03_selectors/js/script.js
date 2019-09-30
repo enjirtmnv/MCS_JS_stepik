@@ -10,7 +10,7 @@ const firstBySelector = document.querySelector('div');
 
 console.log(allBySelector, firstBySelector);
 
-const quest = prompt('Shto hotite napisat na stranitse?');
+const quest = prompt('What do you want write on the page?');
 byId.innerHTML = quest;
 /*byTag.innerHTML = '<h2>Hello I am ID div</h2>';
 такой код не будет работать, так как свойсвто innerHTML применяется напрямую к html коду,
