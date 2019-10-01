@@ -1,0 +1,8 @@
+@import url(reset.css);
+
+body{
+    background-color: palevioletred;
+}
+p{
+    display: none;
+}
