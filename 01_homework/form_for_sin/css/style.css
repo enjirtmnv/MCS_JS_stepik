@@ -1,0 +1,52 @@
+@import url(reset.css);
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background: url("../img/mramor.jpg") top;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+label[for="angle"]{
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px white;
+
+}
+
+input[type="number"]{
+    font-size: 40px;
+    font-family: "Times New Roman";
+    text-align: center;
+    margin: 25px 0;
+}
+
+input[type="submit"] {
+    font-size: 30px;
+    font-family: "Times New Roman";
+    padding: 5px 30px;
+    border: none;
+    background-color: #f9f9f9;
+    text-transform: lowercase;
+}
+
+.result{
+    font-size: 45px;
+    margin-top: 110px;
+    text-shadow: 2px 2px 3px white;
+
+}
+.resultSin{
+    margin-bottom: 15px;
+}
+.resultCos{
+    margin-top: 15px;
+}
