@@ -31,12 +31,15 @@ for (let i = 0; i < crypto.length; i++) {
     if (i == 0 ){
         bitcoin.innerHTML = crypto[i].name;
         bitcoinPrice.innerHTML = crypto[i].price;
+        bitcoinColorBlock.style.width = crypto[i].price + 'px';
     } else if (i == 1) {
         ethereum.innerHTML = crypto[i].name;
         ethereumPrice.innerHTML = crypto[i].price;
+        ethereumColorBlock.style.width = crypto[i].price + 'px';
     } else if (i == 2) {
         litecoin.innerHTML = crypto[i].name;
         litecoinPrice.innerHTML = crypto[i].price;
+        litecoinColorBlock.style.width = crypto[i].price + 'px';
     }
 }
 
@@ -69,13 +72,13 @@ litecoinPrice.innerHTML = crypto[2].price;
 
 
 const bitcoinColorBlock = document.querySelector('.bitcoinColorBlock');
-bitcoinColorBlock.style.width = (crypto[0].price)*0.6 + 'px';
+bitcoinColorBlock.style.width = crypto[0].price + 'px';
 
 const ethereumColorBlock = document.querySelector('.ethereumColorBlock');
 ethereumColorBlock.style.width = crypto[1].price + 'px';
 
 const litecoinColorBlock = document.querySelector('.litecoinColorBlock');
-litecoinColorBlock.style.width = (crypto[2].price)*3.5 + 'px';
+litecoinColorBlock.style.width = crypto[2].price + 'px';
 
   */
 
