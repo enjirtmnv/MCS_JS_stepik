@@ -14,6 +14,40 @@ let crypto = [
 ];
 
 const bitcoin = document.querySelector('.bitcoinName');
+const ethereum = document.querySelector('.ethereumName');
+const litecoin = document.querySelector('.litecoinName');
+
+const bitcoinPrice = document.querySelector('.bitcoinPrice');
+const ethereumPrice = document.querySelector('.ethereumPrice');
+const litecoinPrice = document.querySelector('.litecoinPrice');
+
+const bitcoinColorBlock = document.querySelector('.bitcoinColorBlock');
+const ethereumColorBlock = document.querySelector('.ethereumColorBlock');
+const litecoinColorBlock = document.querySelector('.litecoinColorBlock');
+
+
+
+for (let i = 0; i < crypto.length; i++) {
+    if (i == 0 ){
+        bitcoin.innerHTML = crypto[i].name;
+        bitcoinPrice.innerHTML = crypto[i].price;
+    } else if (i == 1) {
+        ethereum.innerHTML = crypto[i].name;
+        ethereumPrice.innerHTML = crypto[i].price;
+    } else if (i == 2) {
+        litecoin.innerHTML = crypto[i].name;
+        litecoinPrice.innerHTML = crypto[i].price;
+    }
+}
+
+
+
+
+
+
+
+ /*
+const bitcoin = document.querySelector('.bitcoinName');
 bitcoin.innerHTML = crypto[0].name;
 
 const ethereum = document.querySelector('.ethereumName');
@@ -42,4 +76,6 @@ ethereumColorBlock.style.width = crypto[1].price + 'px';
 
 const litecoinColorBlock = document.querySelector('.litecoinColorBlock');
 litecoinColorBlock.style.width = (crypto[2].price)*3.5 + 'px';
+
+  */
 
