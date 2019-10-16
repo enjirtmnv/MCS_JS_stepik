@@ -1,4 +1,6 @@
 @import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P|Share+Tech+Mono&display=swap');
+
 
 body{
     background-image: linear-gradient(to bottom, #6097d9, #e9f5ff);
@@ -20,5 +22,48 @@ body{
     justify-content: center;
 }
 
+.headerName{
+    color: #ffe000;
+    font-size: 125px;
+    text-transform: lowercase;
+    text-shadow: #ea0000 1.5px 1px 0.5px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.enterName{
+    color: #ffe000;
+    font-size: 35px;
+    text-shadow: #ea0000 1.5px 1px 0.5px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.result{
+    color: #ffe000;
+    font-size: 27px;
+    text-shadow: #ea0000 1.5px 1px 0.5px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+button{
+    color: white;
+    text-transform: lowercase;
+    font-size: 21px;
+    text-shadow: black 1.5px 1px 0.5px;
+    background: transparent;
+    border: 0;
+    font-family: 'Press Start 2P', cursive;
+    outline: none; /* Для синий ободки */
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"]{
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 40px;
+}
 
 

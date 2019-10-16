@@ -13,23 +13,18 @@
 
 <div class="main">
 
-    <h2 class="enterName">Enter the city</h2>
 
     <form action="">
-
-        <input type="text" list="cityList" value="">
+        <label class="enterName" for="city">Enter the city</label>
+        <input type="text" list="cityList" value="" name="city" placeholder="Sydney" autocomplete="off">
         <datalist id="cityList">
-            <option value="Yakutsk"></option>
-            <option value="Moscow"></option>
-            <option value="Rome"></option>
-            <option value="Budapest"></option>
-            <option value="Petrozavdsk"></option>
+            <option value=""></option>
         </datalist>
         <button>Calculate</button>
     </form>
     <div class="result">
-        <p class="tempName">Temp:<span class="tempResult"></span></p>
-        <p class="windName">Wind:<span class="windResult"></span></p>
+        <p class="tempName">Temp: <span class="tempResult"></span></p>
+        <p class="windName">Wind: <span class="windResult"></span></p>
     </div>
 
 </div>
