@@ -19,7 +19,7 @@ forms.onsubmit = function (e) {
         let DATA = JSON.parse(xhr.responseText);
         console.log(DATA);
         let tempDATA = (DATA.main.temp - 273).toFixed(1) + ' &#176' +'C';
-        let windDATA = (DATA.wind.speed).toFixed(0) + ' m/s';
+        let windDATA = (DATA.wind.speed).toFixed(1) + ' m/s';
 
         tempResult.innerHTML = tempDATA;
         windResult.innerHTML =windDATA;
