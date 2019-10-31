@@ -33,7 +33,7 @@ form{
     background-position: bottom;
 }
 input[type='submit']{
-    background-color: #111e63;
+    background-color: #111e55;
     padding: 20px 20px 10px 20px;
     margin-top: 20px;
     cursor: url(http://cur.cursors-4u.net/food/foo-5/foo439.cur), auto !important;
@@ -45,6 +45,10 @@ input[type='submit']{
     font-size: 27px;
 }
 
+input[type='submit']:hover{
+    background-color: #101840;;
+}
+
 input[type='radio']{
     display: inline-block;
 }
@@ -53,6 +57,7 @@ input[type='text']{
     width: 100%;
     font-size: 27px;
     margin-top: 10px;
+    text-transform: capitalize;
 }
 
 label{
