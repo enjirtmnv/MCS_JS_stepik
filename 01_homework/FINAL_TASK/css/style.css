@@ -31,6 +31,7 @@ form{
     background-image: url(../img/background.png);
     background-size: cover;
     background-position: bottom;
+    text-transform: capitalize;
 }
 input[type='submit']{
     background-color: #111e55;
