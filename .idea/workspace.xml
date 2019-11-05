@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da07eee0-7f65-4076-8184-396fcf7ff213" name="Default Changelist" comment="" />
+    <list default="true" id="da07eee0-7f65-4076-8184-396fcf7ff213" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/01_homework/ES6_classes/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/01_homework/ES6_classes/js/script.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -26,8 +28,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -64,14 +66,16 @@
       <updated>1566778063169</updated>
       <workItem from="1566778065672" duration="878000" />
       <workItem from="1566830400032" duration="38000" />
+      <workItem from="1572987271785" duration="2000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="916000" />
+    <option name="totallyTimeSpent" value="918000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="140" y="43" width="1400" height="987" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

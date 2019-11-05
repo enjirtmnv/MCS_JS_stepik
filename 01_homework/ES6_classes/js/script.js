@@ -143,10 +143,3 @@ console.log(task5._done);
 task5.complete();
 console.log(task5.done);
 console.log(task5._done);
-
-
-
-
-
-
-
