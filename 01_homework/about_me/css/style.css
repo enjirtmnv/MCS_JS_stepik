@@ -1,1 +1,114 @@
 @import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap');
+
+body{
+    font-family: 'Rubik Mono One', cursive;
+}
+.main {
+    background-image: url("../img/gold.jpg");
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 8vh;
+    align-items: flex-end;
+    background-image: url("../img/shine.jpg");
+    background-size: cover;
+    background-position: center 10%;
+}
+
+.main {
+    display: flex;
+    height: 92vh;
+    justify-content: center;
+}
+
+table{
+    font-size: 30px;
+    text-shadow: -1.5px -1.5px 3px black, 1.5px 1.5px 3px black;
+}
+
+.info{
+    color: white;
+}
+
+.topic{
+    display: flex;
+    justify-content: flex-end;
+    color: #282f9b;
+    text-transform: lowercase;
+    text-shadow: 1px 1px 3px #f9e466, -1px -1px 3px #f9e466;
+}
+
+h1{
+    color: white;
+    font-size: 70px;
+    text-shadow: 2px 2px 3px #161b4c, -2px -2px 3px #161b4c;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin: 35px 0 5px;
+    color: #282f9b;
+    font-size: 32px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px #f9e466, -1px -1px 3px #f9e466;
+}
+
+.hobbyList {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+td {
+    padding: 5px 10px;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 50px;
+
+}
+
+.photo {
+    margin: 40px 0 0 0;
+}
+
+ul {
+    list-style-type: none;
+    color: white;
+    font-size: 30px;
+    text-shadow: -1.5px -1.5px 3px black, 1.5px 1.5px 3px black;
+}
+
+li{
+    margin: 10px 0;
+}
+
+ul li::before {
+    background-image: url("../img/clean.png");
+    content: '';
+    background-size: 23px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 23px;
+    width: 23px;
+    margin: 0 5px 0 0;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    color: #b44646;
+    font-size: 40px;
+    text-shadow: 2px 2px 3px #f9e466, -2px -2px 3px #f9e466;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 20px 0 0 0;
+
+}
