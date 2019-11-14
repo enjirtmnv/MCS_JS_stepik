@@ -1,5 +1,37 @@
 @import url(reset.css);
 
+.menu{
+    display: flex;
+    width: 500px;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.menuItem{
+    color: #ffffff;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.header{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+.backgroundImage{
+    background-image: url(../img/background.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title{
+    color: #ffffff;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
 img[alt='dropIcon'] {
     height: 20px;
 }
