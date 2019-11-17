@@ -223,12 +223,23 @@
     font-weight: 400;
 }
 
+.blockPic{
+    position: relative;
+}
+
 .blockPic:before{
     content: '';
     display: block;
     background: rgba(0, 0, 0, 50%);
     height: 394px;
     width: 794px;
+    position: absolute;
 }
 
+.desPic{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin: 150px auto 0 auto;
+}
 
