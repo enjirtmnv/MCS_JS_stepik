@@ -95,14 +95,10 @@
 
 }
 
-.blockUl{
-    display: flex;
-    justify-content: center;
-    padding: 110px 0 122px 0;
-}
-
 .blockList{
     width: 1156px;
+    margin: 0 auto;
+    padding: 110px 0 122px 0;
     display: flex;
     justify-content: space-between;
 }
@@ -168,17 +164,14 @@
     margin: 0 0 78px 0;
 }
 
-.blockMainDesPic{
+.blockInfo{
+    width: 1156px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
 }
 
-.mainPic{
-    width: 1156px;
-    display: flex;
-}
-
-.mainDes{
+.textInfo{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -187,7 +180,7 @@
     background-color: #ffffff;
 }
 
-.desSubTitle{
+.infoSubTitle{
     color: #fd6d5a;
     font-size: 14px;
     text-transform: uppercase;
@@ -195,7 +188,7 @@
     font-weight: 400;
 }
 
-.desTitle{
+.infoTitle{
     color: #a2ca28;
     font-size: 35px;
     text-transform: uppercase;
@@ -204,7 +197,7 @@
     font-weight: 100;
 }
 
-.desPar{
+.infoPar{
     color: #656e74;
     font-size: 14px;
     width: 285px;
@@ -215,7 +208,7 @@
     font-weight: 400;
 }
 
-.desLink{
+.infoLink{
     color: #a2ca28;
     font-size: 14px;
     text-transform: capitalize;
@@ -236,10 +229,46 @@
     position: absolute;
 }
 
-.desPic{
+.infoPic{
     position: absolute;
     text-align: center;
     width: 100%;
     margin: 150px auto 0 auto;
 }
 
+.footer{
+    background-color: #0d1119;
+    height: 120px;
+}
+
+.blockFooter{
+    margin: 0 auto;
+    width: 1156px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blockSocial{
+    display: flex;
+}
+
+.name{
+    height: 50px;
+    width: 150px;
+    border: none;
+    padding: 0 25px;
+}
+
+.email{
+    height: 50px;
+    width: 290px;
+    border: none;
+    padding: 0 25px;
+}
+
+.button{
+    height: 50px;
+    width: 180px;
+    border: none;
+    padding: 0;
+}
