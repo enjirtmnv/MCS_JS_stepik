@@ -257,6 +257,8 @@
     width: 150px;
     border: none;
     padding: 0 25px;
+    font-family: ProximaNova, sans-serif;
+    font-size: 14px;
 }
 
 .email{
@@ -264,6 +266,8 @@
     width: 290px;
     border: none;
     padding: 0 25px;
+    font-family: ProximaNova, sans-serif;
+    font-size: 14px;
 }
 
 .button{
@@ -271,4 +275,46 @@
     width: 180px;
     border: none;
     padding: 0;
+    font-family: ProximaNova, sans-serif;
+    font-size: 14px;
+}
+
+.facebookIcon{
+    background-color: #2e3192;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitterIcon{
+    background-color: #00aeef;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.youtubeIcon{
+    background-color: #ed3123;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedinIcon{
+    background-color: #171a8f;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
