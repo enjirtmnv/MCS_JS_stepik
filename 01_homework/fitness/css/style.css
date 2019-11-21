@@ -242,15 +242,23 @@
 }
 
 .blockFooter{
-    margin: 0 auto;
     width: 1156px;
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    height: 100%;
+}
+
+.form{
+    margin: 0 0 0 30px;
 }
 
 .blockSocial{
     display: flex;
+    margin: 0 30px 0 0;
 }
+
 
 .name{
     height: 50px;
@@ -259,6 +267,7 @@
     padding: 0 25px;
     font-family: ProximaNova, sans-serif;
     font-size: 14px;
+    border-radius: 2px;
 }
 
 .email{
@@ -268,6 +277,7 @@
     padding: 0 25px;
     font-family: ProximaNova, sans-serif;
     font-size: 14px;
+    border-radius: 2px;
 }
 
 .button{
@@ -277,9 +287,11 @@
     padding: 0;
     font-family: ProximaNova, sans-serif;
     font-size: 14px;
+    background-color: #a2ca28;
+    border-radius: 2px;
 }
 
-.facebookIcon{
+.facebookLink{
     background-color: #2e3192;
     width: 52px;
     height: 52px;
@@ -289,7 +301,7 @@
     align-items: center;
 }
 
-.twitterIcon{
+.twitterLink{
     background-color: #00aeef;
     width: 52px;
     height: 52px;
@@ -299,7 +311,7 @@
     align-items: center;
 }
 
-.youtubeIcon{
+.youtubeLink{
     background-color: #ed3123;
     width: 52px;
     height: 52px;
@@ -309,7 +321,7 @@
     align-items: center;
 }
 
-.linkedinIcon{
+.linkedinLink{
     background-color: #171a8f;
     width: 52px;
     height: 52px;
