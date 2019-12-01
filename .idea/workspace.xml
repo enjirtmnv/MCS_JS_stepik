@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da07eee0-7f65-4076-8184-396fcf7ff213" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/01_homework/sum_XY/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_homework/sum_XY/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_homework/sum_XY/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_homework/sum_XY/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="da07eee0-7f65-4076-8184-396fcf7ff213" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -37,8 +31,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/01_homework/sum_XY/js/script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+                <state relative-caret-position="30">
+                  <caret line="2" column="71" selection-start-line="2" selection-start-column="71" selection-end-line="2" selection-end-column="71" />
                 </state>
               </provider>
             </entry>
@@ -174,12 +168,12 @@
       <workItem from="1566830400032" duration="38000" />
       <workItem from="1572987271785" duration="2000" />
       <workItem from="1573678517985" duration="36066000" />
-      <workItem from="1575144354561" duration="703000" />
+      <workItem from="1575144354561" duration="946000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37687000" />
+    <option name="totallyTimeSpent" value="37930000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -269,17 +263,17 @@
     <entry file="file://$PROJECT_DIR$/01_homework/about_me/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_homework/sum_XY/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01_homework/sum_XY/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_homework/sum_XY/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="71" selection-start-line="2" selection-start-column="71" selection-end-line="2" selection-end-column="71" />
         </state>
       </provider>
     </entry>
