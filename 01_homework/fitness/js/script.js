@@ -1,12 +1,14 @@
 let form = document.forms[0];
+
 let submit = form.elements.button;
+let name = form.elements.name;
+let email = form.elements.email;
+
+let popUp = document.querySelector('.popUpMessageSent');
 
 submit.addEventListener('click',
     function (e) {
         e.preventDefault();
-
-        let name = form.elements.name;
-        let email = form.elements.email;
 
         if ((name.value === '') && (email.value === '')){
             name.style.backgroundColor = '#FFBBC8';
@@ -21,7 +23,11 @@ submit.addEventListener('click',
         } else if ((name.value !== '') && (email.value !== '')){
             name.value = '';
             email.value = '';
-            window.alert('Thank you, your message has been sent!')
+            //window.alert('Thank you, your message has been sent!')
+            popUp.style.display = 'inline';
+            submit.style.display = 'none';
+            name.style.display = 'none';
+            email.style.display = 'none';
         }
 
         name.addEventListener('focus',
@@ -33,7 +39,15 @@ submit.addEventListener('click',
             function () {
                 email.style.backgroundColor = '';
             });
-
     });
 
+/*
+let popUpClose = document.querySelector('.popUpClose');
 
+popUpClose.addEventListener('click',
+    function (e) {
+    e.preventDefault();
+
+        popUp.style.display = 'none';
+    });
+ */
