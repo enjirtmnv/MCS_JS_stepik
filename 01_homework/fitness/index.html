@@ -123,10 +123,13 @@
 <footer class="footer">
     <div class="blockFooter">
         <form class="form" action="">
-            <input class="name" type="text" placeholder="Your Name" name="name">
-            <input class="email" type="email" placeholder="Your Email" name="email"  pattern="([a-zA-Z0-9-_]+)(@)([a-zA-Z0-9-_]+)\.([a-z]{2,})">
+            <input class="name" type="text" placeholder="Your Name" name="name" required autocomplete="off">
+            <input class="email" type="email" placeholder="Your Email" name="email" pattern="([a-zA-Z0-9-_]+)(@)([a-zA-Z0-9-_]+)\.([a-z]{2,})" required autocomplete="off">
             <input type="submit" class="submit" value="Join Newsletter" name="button">
-        </form>
+            <div class="popUpMessageSent">
+                <span class="popUpText">Thank you, your message has been sent!</span>
+            </div>
+           </form>
         <ul class="blockSocial">
             <li><a href="" class="iconSocialLink facebookLink" ><img src="img/fb.png" alt="facebookIcon"></a></li>
             <li><a href="" class="iconSocialLink twitterLink"><img src="img/tw.png" alt="twitterIcon"></a></li>
