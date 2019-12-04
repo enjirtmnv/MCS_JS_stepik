@@ -317,6 +317,7 @@
     font-family: ProximaNova, sans-serif;
     font-size: 14px;
     border-radius: 2px;
+    display: inline;
 }
 
 .email{
@@ -327,6 +328,7 @@
     font-family: ProximaNova, sans-serif;
     font-size: 14px;
     border-radius: 2px;
+    display: inline;
 }
 
 .submit{
@@ -340,6 +342,28 @@
     font-size: 14px;
     background-color: #a2ca28;
     border-radius: 2px;
+    display: inline;
+}
+
+.popUpMessageSent{
+    color: #ffffff;
+    background-color: #a2ca28;
+    font-family: ProximaNova, sans-serif;
+    font-size: 16px;
+    height: 50px;
+    width: 728px;
+    position: absolute;
+    display: none;
+    border-radius: 4px;
+    margin-top: -25px;
+}
+
+.popUpText{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -100px;
+    text-align: center;
 }
 
 .iconSocialLink{
@@ -374,3 +398,21 @@
 .facebookLink:hover, .twitterLink:hover, .youtubeLink:hover, .linkedinLink:hover{
     transform: scale(1.2,1.2);
 }
+/*
+.popUpClose{
+    height: 50px;
+    width: 180px;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    padding: 0;
+    font-family: ProximaNova, sans-serif;
+    font-size: 14px;
+    background-color: #a2ca28;
+    border-radius: 2px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    margin-left: -90px;
+}
+*/
