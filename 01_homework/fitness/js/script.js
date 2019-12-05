@@ -41,13 +41,12 @@ submit.addEventListener('click',
             });
     });
 
-/*
-let popUpClose = document.querySelector('.popUpClose');
-
-popUpClose.addEventListener('click',
+popUp.addEventListener('click',
     function (e) {
     e.preventDefault();
 
         popUp.style.display = 'none';
+        submit.style.display = 'inline';
+        name.style.display = 'inline';
+        email.style.display = 'inline';
     });
- */
