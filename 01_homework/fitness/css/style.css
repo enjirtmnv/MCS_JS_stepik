@@ -258,6 +258,7 @@
     width: 794px;
     position: absolute;
     opacity: 0;
+    transition: 0.5s ease-out;
 }
 
 .infoPic{
@@ -266,8 +267,19 @@
     width: 100%;
     margin: 150px auto 0 auto;
     opacity: 0;
+    transition: 0.5s ease-out;
 }
 
+
+.blockPic:hover .infoPic{
+    opacity: 1;
+}
+
+.blockPic:hover:before{
+    opacity: 1;
+}
+
+/*
 @keyframes blackout {
     0%{
         opacity: 0;
@@ -284,6 +296,8 @@
 .blockPic:hover:before{
     animation: blackout 0.5s ease-out forwards;
 }
+
+ */
 
 .footer{
     background-color: #0d1119;
